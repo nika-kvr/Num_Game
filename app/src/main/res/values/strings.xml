@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">1234</string>
+
+    <!-- NoteDown this Strings -->
+    <string name="Setting" >Setting</string>
+    <string name="Dark">Dark Mode</string>
+    <string name="Launch">Launch second activity</string>
+    <string name="Second_Activity">Welcome to activity 2</string>
+    <string name="Text1">Welcome on Dark mode</string>
+    <string name="Text2">Have a look of this app</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="welcome_to_num_game">Welcome to Num Game</string>
+    <string name="start_game">start game</string>
+    <string name="t_i">თ/ი</string>
+    <string name="Switch">DarkMode</string>
+    <string name="back_button_text"><![CDATA[<]]></string>
+    <string name="retry">retry</string>
+    <string name="save">save</string>
+
+
+</resources>

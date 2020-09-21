@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- NoteDown this same -->
+
+    <declare-styleable name="al">
+
+        <attr name="backgroundColor" format="color"/>
+        <attr name="card_background" format="color"/>
+        <attr name="Text_color" format="color"/>
+        <attr name="Button_color" format="color"/>
+
+
+    </declare-styleable>
+
+
+
+</resources>

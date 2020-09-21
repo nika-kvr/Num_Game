@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/const_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#450288D1"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="4"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/t_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/t_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/t_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/t_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/t_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/t_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/t_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/t_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="@string/t_i"
+                android:background="@drawable/button_1"
+                android:textColor="#FFF"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/T_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/T_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/T_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/T_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/T_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/T_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/T_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/T_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:textColor="?attr/Text_color"
+                android:textSize="36sp" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/retry"
+            android:textColor="#FFFFFF"
+            android:text="@string/retry"
+            android:textAllCaps="false"
+            android:textSize="27sp"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
